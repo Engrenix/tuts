@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Tuts Burger Cardápio</title>
+<!-- © 2026 Engrenix (github.com/Engrenix). Todos os direitos reservados. Uso licenciado exclusivamente para Tuts Burger. Proibida a cópia, modificação ou redistribuição. -->
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="theme-color" content="#0F0B08">
 <meta name="description" content="Cardápio da Tuts Burger: burgers na brasa com blend argentino de 220g, entradas, steaks e bebidas. Toque num prato para ver os detalhes.">
@@ -219,6 +220,8 @@ main{position:relative;z-index:2}
 footer{position:relative;z-index:2;padding:56px var(--gutter-r) calc(env(safe-area-inset-bottom,0px) + 40px) var(--gutter-l);display:grid;justify-items:center;gap:12px;text-align:center;color:var(--fumaca);font-size:12.5px}
 footer img{width:72px;opacity:.9}
 footer p{margin:0;max-width:36ch}
+footer .credito{font-size:11px;opacity:.55;margin-top:6px}
+footer .credito a{color:var(--gema);text-decoration:none}
 
 /* folhas (bottom sheet) */
 .veu{position:fixed;inset:0;z-index:80;background:rgba(5,3,2,.6);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);opacity:0;pointer-events:none;transition:opacity .35s}
@@ -325,6 +328,7 @@ footer p{margin:0;max-width:36ch}
   <img src="assets/logo.png" alt="Tuts Burger">
   <p>Preços em reais. Este cardápio é para consulta: faça seu pedido com o garçom.</p>
   <p style="opacity:.6">Cardápio digital · versão de demonstração</p>
+  <p class="credito">© 2026 <a href="https://instagram.com/engrenix" target="_blank" rel="noopener">Engrenix</a>. Todos os direitos reservados. Proibida a cópia ou reprodução deste site.</p>
 </footer>
 
 <div class="veu" id="veu"></div>
